@@ -16,16 +16,15 @@ int main(){
 		for(scanf("%d",&n),i=0;i<n;i++) {scanf("%d",array+i);used[i] = false;}
 		sort(array,array+n);
 		c=0;
-		j=1;
 		for(i=0;i<n;i++){
 			if(used[i]) continue;
-			for(;j<n&&array[j]<2*array[i];j++);
-			if(j>=n) break;
-			if(array[j]>2*array[i]){
-				continue;
+			for(j=i+1;j<n&&array[j]<=2*array[i];j++){
+				if(!used[j] && array[j]==2*array[i]){
+					used[j] = true;
+					c++;
+					break;
+				}
 			}
-			c++;
-			used[j++] = true;
 		}
 		printf("%d\n",c);
 	}
