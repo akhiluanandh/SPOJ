@@ -3,6 +3,7 @@ AUTHOR: Akhilesh Anandh
 
 Solution for www.spoj.com/problems/YODANESS
 
+Algorithm: Binary Indexed Tree
 */
 
 #include<cstdio>

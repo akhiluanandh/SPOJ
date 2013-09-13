@@ -1,1 +1,1 @@
-Solutions to problems on SPOJ (www.spoj.com)
+Solutions to selected problems on SPOJ (www.spoj.com)

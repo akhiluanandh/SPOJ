@@ -1,3 +1,9 @@
+/*
+AUTHOR Akhilesh Anandh
+Solution for "Magic of the Locker" (www.spoj.com/problems/LOCKER)
+Algorithm: Modular exponentiation
+*/
+
 #include<cstdio>
 #include<map>
 #include<stdlib.h>
