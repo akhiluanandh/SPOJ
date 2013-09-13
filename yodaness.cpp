@@ -1,3 +1,10 @@
+/*
+AUTHOR: Akhilesh Anandh
+
+Solution for www.spoj.com/problems/YODANESS
+
+*/
+
 #include<cstdio>
 #include<cstring>
 #include<string>
