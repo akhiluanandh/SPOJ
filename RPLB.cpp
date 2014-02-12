@@ -1,6 +1,6 @@
 /*
 AUTHOR: Akhilesh Anandh
-Solution for "Blueberries" (www.spoj.com/RPLB)
+Solution for "Blueberries" (www.spoj.com/problems/RPLB)
 Algorithm: DP
 */
 
